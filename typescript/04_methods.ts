@@ -23,7 +23,7 @@ console.log(newAuthor.writeBook("Coding with Typescript!"));
 //     return callback;
 // }
 // What type is the parameter, and what type is the return value
-const higherOrderFunction = (callback: any) => {
+const higherOrderFunction = (callback: number) => {
 // const higherOrderFunction = (callback: () => string | number) => {
     return callback;
 }
